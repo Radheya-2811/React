@@ -1,10 +1,11 @@
 import React from 'react'
+import TotalScore from './TotalScore'
 
 function GamePage() {
     return (
-        <>
-            Game Page
-        </>
+        <main>
+           <TotalScore/>
+        </main>
     )
 }
 

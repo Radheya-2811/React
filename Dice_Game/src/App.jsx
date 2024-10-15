@@ -4,7 +4,7 @@ import GamePage from "./components/GamePage";
 
 function App() {
 
-  const [isGameStarted,setGameStarted]=useState(false)
+  const [isGameStarted,setGameStarted]=useState(true)
   const toogleGamePlay=()=>{
     setGameStarted((prev)=>!prev);
   }
